@@ -6,7 +6,7 @@ from matplotlib import style
 import pandas as pd
 import pandas_datareader.data as web
 import sys
-#def getdate():
+def getdate():
 
 def choicemenu():
     while True:
