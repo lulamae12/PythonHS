@@ -12,7 +12,7 @@ def encryptOrdecrypt():
     return mode
 def MessageToEncryptOrDecrypt():
     print('Please enter your message:')
-    message = input()
+    message = str.lower(input())
     return message
 def bruteforce():
     num = 0
