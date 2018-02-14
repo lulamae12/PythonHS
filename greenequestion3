@@ -1,0 +1,3 @@
+print("please type in a number no longer than 10 digits")
+num = userinput()
+print("Original number:" + num)

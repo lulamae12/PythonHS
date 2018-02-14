@@ -1,0 +1,18 @@
+import math
+global correctInput = 0
+def intro():
+    print("this program will give you your new class grade based on the grade you just got.")
+    print("would you like to start?")
+    choice = input()
+    while correctInput == 0:
+        if "y" in choice:
+
+            GetGrade()
+            correctInput = 1
+        else:
+
+            print("please enter yes or no")
+            break
+def GetGrade():
+    print("hello")
+intro()

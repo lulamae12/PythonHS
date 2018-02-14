@@ -1,0 +1,59 @@
+
+IP 2/2/18
+guide:
+ticker
+pricepershare when bought
+shares bought
+total when bought
+
+NVDA
+233.52
+7
+1634.64
+
+GM
+41
+42
+1722
+
+BAC
+31.77
+55
+1747.35
+
+EOG
+112.83
+15
+1692.45
+
+FCX
+17.97
+97
+1743.09
+
+C
+77.02
+22
+1694.44
+
+total when bought:
+10233.97
+
+DIVIDENDS
+NVDA
+0.60
+
+GM
+1.52
+
+BAC
+0.48
+
+EOG
+0.67
+
+FCX
+0
+
+C
+1.28
