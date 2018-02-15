@@ -6,8 +6,17 @@ from matplotlib import style
 import pandas as pd
 import pandas_datareader.data as web
 import sys
-def getdate():
+x = 1
+#0 = monday,1= tues,2=wed,3=thurs,4=fri,5=sat,6=sun
+dayforweek = dt.datetime.now()
+weekday = dt.date.weekday(dayforweek)
+if weekday == 0:
+    x = 3
+if weekday == 6:
+    x = 2
 
+
+print(weekday)
 def choicemenu():
     while True:
         print('________________________')
@@ -57,7 +66,7 @@ def findstock():
         stockticker = input()
         if len(stockticker) < 5:
             style.use('ggplot')
-            start = dt.datetime.now() - timedelta(days=1)
+            start = dt.datetime.now() - timedelta(days=x)
             end = dt.datetime.now()
             fullstockinfo = web.DataReader(stockticker, "google", start, end)
 
@@ -191,8 +200,8 @@ def dow30stocks():
             dowmenuchoice = int(input())
             if dowmenuchoice == 1:
                 #times are set back a day because of when the stock markets open/close bc it cant get live data
-                start = dt.datetime.now() - timedelta(days=1)
-                end = dt.datetime.now() - timedelta(days=1)
+                start = dt.datetime.now() - timedelta(days=x)
+                end = dt.datetime.now() - timedelta(days=x)
                 dowstock1 = web.DataReader(dowStock1Ticker, "google", start, end)
                 dowstock2 = web.DataReader(dowStock2Ticker, "google", start, end)
                 dowstock3 = web.DataReader(dowStock3Ticker, "google", start, end)
@@ -253,8 +262,8 @@ def dow30stocks():
                     sys.exit()
 
             if dowmenuchoice == 2:
-                start = dt.datetime.now() - timedelta(days=1)
-                end = dt.datetime.now() - timedelta(days=1)
+                start = dt.datetime.now() - timedelta(days=x)
+                end = dt.datetime.now() - timedelta(days=x)
                 totaldowstock1 = web.DataReader(dowStock1Ticker, "google", start, end)
                 totaldowstock2 = web.DataReader(dowStock2Ticker, "google", start, end)
                 totaldowstock3 = web.DataReader(dowStock3Ticker, "google", start, end)
@@ -301,8 +310,8 @@ def dow30stocks():
                 print("----------------------------------------------------")
             if dowmenuchoice == 3:
 
-                start = dt.datetime.now() - timedelta(days=1)
-                end = dt.datetime.now() - timedelta(days=1)
+                start = dt.datetime.now() - timedelta(days=x)
+                end = dt.datetime.now() - timedelta(days=x)
                 totaldowstock1 = web.DataReader(dowStock1Ticker, "google", start, end)
                 totaldowstock2 = web.DataReader(dowStock2Ticker, "google", start, end)
                 totaldowstock3 = web.DataReader(dowStock3Ticker, "google", start, end)
@@ -446,8 +455,8 @@ def nondow30stocks():
         nondowmenuchoice = int(input())
         if nondowmenuchoice == 1:
             #times are set back a day because of when the stock markets open/close bc it cant get live data
-            start = dt.datetime.now() - timedelta(days=1)
-            end = dt.datetime.now() - timedelta(days=1)
+            start = dt.datetime.now() - timedelta(days=x)
+            end = dt.datetime.now() - timedelta(days=x)
             nondowstock1 = web.DataReader(nondowStock1Ticker, "google", start, end)
             nondowstock2 = web.DataReader(nondowStock2Ticker, "google", start, end)
             nondowstock3 = web.DataReader(nondowStock3Ticker, "google", start, end)
@@ -508,8 +517,8 @@ def nondow30stocks():
                 sys.exit()
 
         if nondowmenuchoice == 2:
-            start = dt.datetime.now() - timedelta(days=1)
-            end = dt.datetime.now() - timedelta(days=1)
+            start = dt.datetime.now() - timedelta(days=x)
+            end = dt.datetime.now() - timedelta(days=x)
             totalnondowstock1 = web.DataReader(nondowStock1Ticker, "google", start, end)
             totalnondowstock2 = web.DataReader(nondowStock2Ticker, "google", start, end)
             totalnondowstock3 = web.DataReader(nondowStock3Ticker, "google", start, end)
@@ -555,8 +564,8 @@ def nondow30stocks():
             print("\n")
             print("----------------------------------------------------")
         if nondowmenuchoice == 3:
-            start = dt.datetime.now() - timedelta(days=1)
-            end = dt.datetime.now() - timedelta(days=1)
+            start = dt.datetime.now() - timedelta(days=x)
+            end = dt.datetime.now() - timedelta(days=x)
             totalnondowstock1 = web.DataReader(nondowStock1Ticker, "google", start, end)
             totalnondowstock2 = web.DataReader(nondowStock2Ticker, "google", start, end)
             totalnondowstock3 = web.DataReader(nondowStock3Ticker, "google", start, end)
@@ -642,8 +651,8 @@ def mystocks():
     dowStock4Ticker = dlines[23]
     dowStock5Ticker = dlines[28]
     dowStock6Ticker = dlines[33]
-    start = dt.datetime.now() - timedelta(days=1)
-    end = dt.datetime.now() - timedelta(days=1)
+    start = dt.datetime.now() - timedelta(days=x)
+    end = dt.datetime.now() - timedelta(days=x)
     dowstock1 = web.DataReader(dowStock1Ticker, "google", start, end)
     dowstock2 = web.DataReader(dowStock2Ticker, "google", start, end)
     dowstock3 = web.DataReader(dowStock3Ticker, "google", start, end)
