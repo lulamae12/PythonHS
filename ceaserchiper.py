@@ -28,7 +28,10 @@ def bruteforce():
                     newmessage.append(letter)
                 else:
                     index = alphabet.index(letter)
-                    newIndex = index - shift
+                    try:
+                        newIndex = index - shift
+                    except IndexError:
+                        newIndex = 26 - index - shift
                     newmessage.append(alphabet[newIndex])
             num + 1
             print("your decrypted message is:" + "".join(newmessage) + ' with a shift of:' + str(shift))
