@@ -39,7 +39,7 @@ def bruteforce():
     if mode != 3:
         pass
 def GetShift():
-    if mode <= 2 and mode > 0:
+    if mode < 3 and mode > 0:
         shift = 0
         while True:
             print("enter your shift:")
@@ -51,6 +51,9 @@ def GetShift():
 
     if mode == 3:
         pass
+
+# just needed to add modulus to handle when the number went out of the range
+
 def EncryptedOrDecryptedMessage(message, mode, shift):
     if mode == 2:
         Encryptedmessage = ''
@@ -62,7 +65,7 @@ def EncryptedOrDecryptedMessage(message, mode, shift):
             else:
                 index = alphabet.index(letter)
                 newIndex = index + shift
-                newmessage.append(alphabet[newIndex])
+                newmessage.append(alphabet[newIndex%26])
                 #return new encryoted message
         print("your encrypted message is:" + "".join(newmessage))
     if mode == 1:
@@ -75,7 +78,7 @@ def EncryptedOrDecryptedMessage(message, mode, shift):
             else:
                 index = alphabet.index(letter)
                 newIndex = index - shift
-                newmessage.append(alphabet[newIndex])
+                newmessage.append(alphabet[newIndex%26])
                     #return new decrypted message
         print("your decrypted message is:" + "".join(newmessage))
 
