@@ -10,7 +10,7 @@ x = 1
 #0 = monday,1= tues,2=wed,3=thurs,4=fri,5=sat,6=sun
 dayforweek = dt.datetime.now()
 weekday = dt.date.weekday(dayforweek)
-if weekday == 0:
+if weekday == 3:
     x = 3
 if weekday == 6:
     x = 2
@@ -212,31 +212,37 @@ def dow30stocks():
                 input("Press the Enter key to proceed...")
                 print("----------------------------------------------------")
                 print(dowStock1Ticker)
+                print(f"You own:",dowStock1SharesBought,"shares","of ",dowStock1Ticker)
                 print(dowstock1)
                 print("\n")
                 print("----------------------------------------------------")
 
                 print(dowStock2Ticker)
+                print(f"You own:",dowStock2SharesBought,"shares","of ",dowStock2Ticker)
                 print(dowstock2)
                 print("\n")
                 print("----------------------------------------------------")
 
                 print(dowStock3Ticker)
+                print(f"You own:",dowStock3SharesBought,"shares","of ",dowStock3Ticker)
                 print(dowstock3)
                 print("\n")
                 print("----------------------------------------------------")
 
                 print(dowStock4Ticker)
+                print(f"You own:",dowStock4SharesBought,"shares","of ",dowStock4Ticker)
                 print(dowstock4)
                 print("\n")
                 print("----------------------------------------------------")
 
                 print(dowStock5Ticker)
+                print(f"You own:",dowStock5SharesBought,"shares","of ",dowStock5Ticker)
                 print(dowstock5)
                 print("\n")
                 print("----------------------------------------------------")
 
                 print(dowStock6Ticker)
+                print(f"you own:",dowStock6SharesBought,"shares","of ",dowStock6Ticker)
                 print(dowstock6)
                 print("\n")
                 print("----------------------------------------------------")
@@ -467,31 +473,37 @@ def nondow30stocks():
             input("Press the Enter key to proceed...")
             print("----------------------------------------------------")
             print(nondowStock1Ticker)
+            print(f"You own:",nondowStock1SharesBought,"shares","of ",nondowStock1Ticker)
             print(nondowstock1)
             print("\n")
             print("----------------------------------------------------")
 
             print(nondowStock2Ticker)
+            print(f"You own:",nondowStock2SharesBought,"shares","of ",nondowStock2Ticker)
             print(nondowstock2)
             print("\n")
             print("----------------------------------------------------")
 
             print(nondowStock3Ticker)
+            print(f"You own:",nondowStock3SharesBought,"shares","of ",nondowStock3Ticker)
             print(nondowstock3)
             print("\n")
             print("----------------------------------------------------")
 
             print(nondowStock4Ticker)
+            print(f"You own:",nondowStock4SharesBought,"shares","of ",nondowStock4Ticker)
             print(nondowstock4)
             print("\n")
             print("----------------------------------------------------")
 
             print(nondowStock5Ticker)
+            print(f"You own:",nondowStock5SharesBought,"shares","of ",nondowStock5Ticker)
             print(nondowstock5)
             print("\n")
             print("----------------------------------------------------")
 
             print(nondowStock6Ticker)
+            print(f"You own:",nondowStock6SharesBought,"shares","of ",nondowStock6Ticker)
             print(nondowstock6)
             print("\n")
             print("----------------------------------------------------")
