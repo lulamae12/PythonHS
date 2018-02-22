@@ -14,24 +14,21 @@ def encrypt():
     key = int(input("Please enter your key:"))
     message = str(input("Please enter your message to encrypted:"))
     encryptls = []
-    result = []
-    final = []
+    biglist = []
     messagelength = len(message)
     amounttorun = ceil(messagelength / key)
     ATRint = int(amounttorun)
     counter = 0
     print(message)
     while counter != amounttorun:
-        for char in message:
-            encryptls += char
-
         splicedls = list(message)[0+(key*counter):key+(key*counter)]
         while len(splicedls) < key: splicedls.append("|")
         print(splicedls)
         counter += 1
-        result.append(splicedls)
-    for eachlist in result:
-        final.append("".join(eachlist))
+        biglist.append(splicedls)
+
     for num in range(key):
-        print("".join(final[num]))
+        encryptls.append("".join(i[num] for i in biglist))
+
+    print("".join(encryptls))
 menu()
