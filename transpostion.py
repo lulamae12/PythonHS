@@ -13,9 +13,17 @@ def encrypt():
     key = int(input("Please enter your key:"))
     message = str(input("Please enter your message to encrypted:"))
     encryptls = []
-    for char in message:
-        encryptls += char
-    splicedls = encryptls[0:key]
-    print(encryptls)
-    print(splicedls)
+    messagelength = len(message)
+    amounttorun = messagelength / key
+    ATRint = int(amounttorun)
+    print(message)
+    for i in range (ATRint):
+        for char in message:
+            encryptls += char
+
+        splicedls = encryptls[0:key]
+        print(splicedls)
+        amounttorun - 1
+        if amounttorun == 0:
+            break
 menu()
