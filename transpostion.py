@@ -23,8 +23,8 @@ def encrypt():
     counter = 0
     print(message)
     while counter != amounttorun:
-        splicedls = list(message)[0+(key*counter):key+(key*counter)]
-        while len(splicedls) < key: splicedls.append("|")
+        splicedls = list(message)[0+(key*counter):key+(key*counter)]#counter
+        while len(splicedls) < key: splicedls.append("|")#replaces spaces
         print(splicedls)
         counter += 1
         biglist.append(splicedls)
