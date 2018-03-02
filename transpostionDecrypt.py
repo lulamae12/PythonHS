@@ -1,6 +1,7 @@
 import math, pyperclip
 
 def main():
+
     myMessage = 'Tsacoss nc. titkonpnei!h lrn tcdh mhs eid gvvan,y aya a ai yen t.eeto pknlndnTintopgkr r  retede oghnghu  ey  uimniy sa ee  a gaeiNgp|'
     myKey = 11
 
@@ -45,8 +46,19 @@ def decryptMessage(key, message):
 
     return ''.join(plaintext)
 
-
+def brute(msg):
+    for key in range(1,len(msg)+1):
+        print(f"Key: {key}")
+        print(decryptMessage(key,msg))
 # If transpositionDecrypt.py is run (instead of imported as a module) call
 # the main() function.
 if __name__ == '__main__':
+    print("what would u like to do?")
+    print("1. brute")
+    print("2. norm")
+    choice = input("choice >>> ")
+    if choice == "1":
+        brute("Put yer message here")
+    elif choide == "2":
+        main()
     main()
