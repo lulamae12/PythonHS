@@ -31,13 +31,13 @@ def heck():
 
 
     time.sleep(3)
-    for i in range(100):
+    for i in range(10):
         win = GraphWin(width = 900, height = 900)
         win = GraphWin(width = 600, height = 600)
         win = GraphWin(width = 600, height = 600)
 
-    
+
     if key == 27: #ESC
         sys.exit()
-            
+
 heck()

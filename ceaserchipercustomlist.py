@@ -26,15 +26,14 @@ def bruteforce():
 
             for letter in ls:
 
-                if not letter.isalpha():
-                    newmessage.append(letter)
-                else:
-                    index = alphabet.index(letter)
-                    try:
-                        newIndex = index - shift
-                    except IndexError:
-                        newIndex = 95 - index - shift
-                    newmessage.append(alphabet[newIndex])
+
+
+                index = alphabet.index(letter)
+                try:
+                    newIndex = index - shift
+                except IndexError:
+                    newIndex = 95 - index - shift
+                newmessage.append(alphabet[newIndex])
             num + 1
             print("your decrypted message is:" + "".join(newmessage) + ' with a shift of:' + str(shift))
 
