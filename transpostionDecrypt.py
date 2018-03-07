@@ -1,9 +1,27 @@
 import math, pyperclip
 
 def main():
-
-    myMessage = 'Tsacoss nc. titkonpnei!h lrn tcdh mhs eid gvvan,y aya a ai yen t.eeto pknlndnTintopgkr r  retede oghnghu  ey  uimniy sa ee  a gaeiNgp|'
-    myKey = 11
+    myMessage ="""T 
+t
+ntuAycnrsP 
+erensi ueyiW u.s?pcentshoe
+w
+hi sh er ae
+epoionn f.rErhrtno bo	
+x e i tuor 
+pirFva st OWls.aelcihtrha 
+l lan h
+iidstosgoebcnieowe f .h,f
+ s t c	  f
+b shtoAeteTlyeehmnnhrhoon epdcoeecus  o
+rrn k i sucyotP tt un.pu ysoi bd	tgttt v e Nihhhrcelxeoolaouo.opxtnynncm
+grp
+ ,  tp
+ierdc tluaMcse.ihharruass	poeniellisMhw gn t oiae tugsionoyrtra tppsnb hagorle  euenefiermt
+s s  n auo
+eCpicgCts Ssaososhotbh es d,or eoasine i,b rrato.bc ettrrit
+ueo r a o"""
+    myKey = 41
 
     plaintext = decryptMessage(myKey, myMessage)
 
@@ -58,7 +76,27 @@ if __name__ == '__main__':
     print("2. norm")
     choice = input("choice >>> ")
     if choice == "1":
-        brute("Put yer message here")
-    elif choide == "2":
+        brute("""T 
+t
+ntuAycnrsP 
+erensi ueyiW u.s?pcentshoe
+w
+hi sh er ae
+epoionn f.rErhrtno bo	
+x e i tuor 
+pirFva st OWls.aelcihtrha 
+l lan h
+iidstosgoebcnieowe f .h,f
+ s t c	  f
+b shtoAeteTlyeehmnnhrhoon epdcoeecus  o
+rrn k i sucyotP tt un.pu ysoi bd	tgttt v e Nihhhrcelxeoolaouo.opxtnynncm
+grp
+ ,  tp
+ierdc tluaMcse.ihharruass	poeniellisMhw gn t oiae tugsionoyrtra tppsnb hagorle  euenefiermt
+s s  n auo
+eCpicgCts Ssaososhotbh es d,or eoasine i,b rrato.bc ettrrit
+ueo r a o
+""")
+    elif choice == "2":
         main()
     main()
