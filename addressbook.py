@@ -15,6 +15,9 @@ def menu():
             if choice == 1:
                 addcontact()
                 break
+            if choice == 2:
+                viewcontacts()
+                break
         except(ValueError):
             print('that is not a vaild input.')
 
@@ -34,5 +37,19 @@ def addcontact():
             if 'done' not in your_input:
                 print('please enter the data correctly')
             if 'done' in your_input:
+                json.dump(addressbook, open("addressbookdata.json","a"),indent = 4)
                 break
+
+def viewcontacts():
+    contacts = json.load(open("addressbookdata.json","r"))
+    for contact in contacts:
+        print(contact, contacts[contact])
+    
+
+
+
+
+
+
+
 menu()
