@@ -41,19 +41,19 @@ total when bought:
 
 DIVIDENDS
 AAPL
-2.52
+.32
 
 BA
-6.84
+1.61
 
 PFE
-1.36
+.34
 
 UNH
-3
+.75
 
 JPM
-2.24
+.56
 
 V
-0.84
+0.21

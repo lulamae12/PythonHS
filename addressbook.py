@@ -26,10 +26,10 @@ def addcontact():
     while True:
         try:
             print('when done, type "done"')
-            print('please seperate data with a colon. i.e. (bob:555-123-4567)')
+            print('please seperate data with a colon.dont add dashes in phonenumber. i.e. (bob:5551234567)')
             your_input = input("New contact:")
             key = your_input.split(":")[0]
-            val = your_input.split(":")[1]
+            val = int(your_input.split(":")[1])
             addressbook.update({key:val})
             print(addressbook)
 
@@ -44,7 +44,7 @@ def viewcontacts():
     contacts = json.load(open("addressbookdata.json","r"))
     for contact in contacts:
         print(contact, contacts[contact])
-    
+
 
 
 

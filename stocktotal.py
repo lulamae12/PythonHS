@@ -30,7 +30,6 @@ def choicemenu():
 
         try:
             choice = int(input())
-
             if choice > 5 or choice < 1:
                 print('that is not a valid choice')
             if choice == 1:
