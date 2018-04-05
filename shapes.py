@@ -1,11 +1,14 @@
-from turtle import *
-print("please choose your shape.")
-print("1. Square")
-print("2. Circle")
-print("3. Figure 8")
-usrchoice = input("Choice:")
-if usrchoice is "1":
-    for i in range(4):
-        forward(25)
-        right(90)
-    onclick()
+def rectangle(turtle, x, y, width, height, color):
+  turtle.penup()
+  turtle.setx(x)
+  turtle.sety(y)
+  turtle.pendown()
+  turtle.color(color, color)
+  turtle.begin_fill()
+  for i in range(2):
+    turtle.forward(width)
+    turtle.left(90)
+    turtle.forward(height)
+    turtle.left(90)
+  turtle.end_fill()
+  
