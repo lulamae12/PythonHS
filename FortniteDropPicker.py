@@ -7,4 +7,4 @@ while True:
     letter = random.choice(gridLetters)
     place = random.choice(places)
     #print("\ndrop at: " + letter + "," + str(random.randint(1,10)))
-    print("or, " + place +"\n")
+    print(place +"\n")
