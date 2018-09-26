@@ -9,7 +9,7 @@ def main():
         text = r.recognize_google(audio)
         print (text)
 
-    except():
+    except(Traceback):
         pass
 while True:
     main()
