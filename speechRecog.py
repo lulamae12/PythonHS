@@ -9,7 +9,8 @@ def main():
         text = r.recognize_google(audio)
         print (text)
 
-    except():
+    except(UnknownValueError):
         pass
+
 while True:
     main()
