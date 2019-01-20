@@ -3,14 +3,25 @@ from google_images_download import google_images_download
 from questionTypes import *
 from PIL import Image
 from tarsConfig import *
+from gtts import gTTS
+from playsound import playsound
+
+
 
 appID = "P6Y6GV-H9Y7RETQ37"
 tars = wolframalpha.Client(appID)
+
 def firstTimeSetup():
-    try:
-        setupFile = open("TarsSetup.txt","r+")
-    except:
+
+    setupFile = open("TarsSetup.txt","r+")
+    configured = setupFile.readline()
+    print(configured)
+    if configured == "1":
+        setupFile.close()
+    else:
         configSetup()
+        setupFile = open("TarsSetup.txt", "w")
+        setupFile.write("1")
 
 def getCurrentTime():#get time so i dont need to use api
     now = datetime.datetime.now()
@@ -26,10 +37,6 @@ def getCurrentTime():#get time so i dont need to use api
 
 def imageSearch(term):
     searchCleanupList = [" show "," me "," picture "," pictures "]
-
-    for item in searchCleanupList:
-        term
-#CLEANUP
 
     term = term.replace("show me pictures of a ","")
     term = term.replace("show me pictures of ","")
@@ -58,8 +65,21 @@ def imageSearch(term):
     print("image removed")
 #ubuntu is shotwell pm
 
-firstTimeSetup()
+def speak(words):
+    tts = gTTS(text=str(words), lang='en')
+    soundName = "TARSAudioTemp"
+    soundName = soundName + ".mp3"
+    tts.save(soundName)
+    print(soundName)
+    playsound(soundName)
+    os.remove(soundName)
 
+
+
+
+
+
+firstTimeSetup()
 
 while True:
     question = input("Question:")
