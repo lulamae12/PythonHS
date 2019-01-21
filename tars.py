@@ -1,16 +1,19 @@
-import wolframalpha,wikipedia,datetime,os
+import wolframalpha,wikipedia,datetime,os,subprocess
 from google_images_download import google_images_download
 from questionTypes import *
 from PIL import Image
 from tarsConfig import *
-from gtts import gTTS
+
 from playsound import playsound
-
-
-
+import pyttsx3
 appID = "P6Y6GV-H9Y7RETQ37"
 tars = wolframalpha.Client(appID)
 
+
+
+tts = pyttsx3.init()
+rate = tts.getProperty('rate')
+tts.setProperty('rate', 180)
 def firstTimeSetup():
 
     setupFile = open("TarsSetup.txt","r+")
@@ -33,11 +36,12 @@ def getCurrentTime():#get time so i dont need to use api
         period = "PM"
     if minute < 9:
         minute = "0" + str(minute)#add 0
+
     print("TARS >>> The Current Time is,",hour,":",minute,period)
+    speak("the current time is " + str(hour)  + " " + str(minute) + " " + str(period))
 
 def imageSearch(term):
-    searchCleanupList = [" show "," me "," picture "," pictures "]
-
+    
     term = term.replace("show me pictures of a ","")
     term = term.replace("show me pictures of ","")
     term = term.replace("show me a ","")
@@ -59,20 +63,19 @@ def imageSearch(term):
 
     print(imagePathStr)
     img = Image.open(imagePathStr)
+    speak("showing pictures of "+ term)
     img.show()
+
+
+
     os.remove(imagePathStr)
 
     print("image removed")
 #ubuntu is shotwell pm
-
 def speak(words):
-    tts = gTTS(text=str(words), lang='en')
-    soundName = "TARSAudioTemp"
-    soundName = soundName + ".mp3"
-    tts.save(soundName)
-    print(soundName)
-    playsound(soundName)
-    os.remove(soundName)
+    tts.say(words)
+    tts.runAndWait()
+
 
 
 
@@ -97,6 +100,7 @@ while True:
             res = tars.query(question)
             answer = next(res.results).text
             print("TARS >>> ",answer)
+            speak(answer)
 
 
     except:
