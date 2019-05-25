@@ -1,21 +1,16 @@
-import pydest
-import asyncio
+
 from bungoAPI import *
 
 
-async def main():
+import requests
 
-    destiny = pydest.Pydest(APIKey)
-    activity1 = await destiny.decode_hash(60002467, 'DestinyActivityDefinition')
-    await destiny.update_manifest()
+#dictionary to hold extra headers
+HEADERS = {"X-API-Key":APIKey}
 
+#make request for Gjallarhorn
+r = requests.get("https://www.bungie.net/platform/Destiny/Manifest/InventoryItem/1274330687/", headers=HEADERS);
 
-    print("Activity Name: {}".format(activity1['displayProperties']['name']))
-    print("Description: {}".format(activity1['displayProperties']['description']))
-    print("")
-
-    destiny.close()
-
-loop = asyncio.get_event_loop()
-loop.run_until_complete(main())
-loop.close()
+#convert the json object we received into a Python dictionary object
+#and print the name of the item
+inventoryItem = r.json()
+print(inventoryItem['Response']['data']['inventoryItem']['itemName'])
