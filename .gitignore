@@ -80,8 +80,12 @@ celerybeat-schedule
 
 # SageMath parsed files
 *.sage.py
+<<<<<<< HEAD
+
+=======
 #pyowmapikey
 pyowmkey.py
+>>>>>>> 3bc0978b3a1570864d07f00b0b957fa701473452
 # Environments
 .env
 .venv
@@ -103,3 +107,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+<<<<<<< HEAD
+
+#mine
+bungoAPI.py
+=======
+>>>>>>> 3bc0978b3a1570864d07f00b0b957fa701473452
