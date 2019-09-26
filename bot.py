@@ -6,7 +6,7 @@ import asyncio
 import json
 from random import randint
 from gtts import gTTS
-
+#bruh
 TOKEN = "NDQ4MTIzMDQ1MDY0ODY3ODYw.DeRiqg.bz8KKLXq9o0FzQI48cB9eJRgyF0"
 bot = commands.Bot(command_prefix="!")
 
