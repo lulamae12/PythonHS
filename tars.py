@@ -3,14 +3,16 @@ from google_images_download import google_images_download
 from questionTypes import *
 from PIL import Image
 from tarsConfig import *
-
+from chatterbot import ChatBot
 from playsound import playsound
 import pyttsx3
 appID = "P6Y6GV-H9Y7RETQ37"
 tars = wolframalpha.Client(appID)
+tarsChatBot = ChatBot(
+    'TarsChat',
+    trainer='chatterbot.trainers.ChatterBotCorpusTrainer'
 
-
-
+)
 tts = pyttsx3.init()
 rate = tts.getProperty('rate')
 tts.setProperty('rate', 180)
@@ -41,12 +43,10 @@ def getCurrentTime():#get time so i dont need to use api
     speak("the current time is " + str(hour)  + " " + str(minute) + " " + str(period))
 
 def imageSearch(term):
-    
-    term = term.replace("show me pictures of a ","")
-    term = term.replace("show me pictures of ","")
-    term = term.replace("show me a ","")
-    term = term.replace("show me an ","")
-    term = term.replace("show a picture of ","")
+
+
+
+    term = term.replace("show me ","")
 
     term = term.strip()#clean it up
 #CLEANUP
@@ -76,24 +76,27 @@ def speak(words):
     tts.say(words)
     tts.runAndWait()
 
-
+def trainTars(trainingIterations):
+    while trainingIterations != 0:
+        tarsChatBot.train("chatterbot.corpus.english")
+        trainingIterations = trainingIterations - 1
 
 
 
 
 
 firstTimeSetup()
-
+trainTars(1)
 while True:
+
     question = input("Question:")
     question = question.lower()
     questionSplit = question.split()
     try:
         if "time" in questionSplit and "in" not in questionSplit:
             getCurrentTime()
-        elif ("show" and "pictures" in questionSplit) or ("show" and "picture" in questionSplit or ("show" in questionSplit)):
+        elif "show" in questionSplit:
             imageSearch(question)
-
 
         else:
 
@@ -104,4 +107,10 @@ while True:
 
 
     except:
-        continue
+        try:
+            print(wikipedia.summary(question))
+            speak(wikipedia.summary(question))
+        except:
+            answer = tarsChatBot.get_response(question)
+            print('Tars: >>> ',answer)
+            speak(answer)

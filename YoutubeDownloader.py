@@ -1,6 +1,6 @@
 from pytube import YouTube as YT
 from pytube import Playlist
-import os
+import os,pytube
 cls = lambda: os.system('cls')
 
 def singleVideo():
@@ -11,8 +11,15 @@ def singleVideo():
     path = os.getcwd()#get dir for download
     print ("\nThe current directory is : %s" % path)
     Url = input("Paste the Youtube URL Here: ")
-    YT(Url).streams.first().download()
-    print("Done!")
+    ytStream = YT(Url)
+
+    print("\nTitle: ",ytStream.title)
+    sureToDL = input("Download? (y,n) : ")
+    if sureToDL == "y":
+        YT(Url).streams.first().download()
+        print("Done!")
+    else:
+        print("Not downloaded.")
 
 def playlist():
     cls()
@@ -30,15 +37,19 @@ def playlist():
     else:
         print ("Successfully created the directory %s " % path)
     Url = input("\nPaste the Youtube Playlist URL Here: ")
-    pl = Playlist(Url)
+    pl = Playlist('https://www.youtube.com/playlist?list=PLKJ7g305OHDEUNF_BzAUdcxt4d_ey8m6z')
+
     fullFilePath = "D:/Programs/Python/" + str(newFolderPath)
-    pl.download_all(fullFilePath)
-    print("Done!")
+    while True:
+        try:
+
+            pl.download_all(fullFilePath)
+            print("Done!")
+        except pytube.exceptions.RegexMatchError:
+            pass
 
 
-
-
-downloadType = input("download a (1)playlist or a (2)video: ")
+downloadType = input("Download a (1)playlist, (2)video: ")
 if int(downloadType) == 1:
     playlist()
 elif int(downloadType) == 2:

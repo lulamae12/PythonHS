@@ -1,6 +1,6 @@
 import subprocess
 
-packageList = ["wolframalpha","wikipedia","google-images-download","pillow","docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew","kivy","kivy.deps.gstreamer"]
+packageList = ["wolframalpha","wikipedia","google-images-download","pillow","playsound","wxpython","pyttsx3"]
 
 def configSetup():
     setupFile = open("TarsSetup.txt","w")
@@ -8,4 +8,3 @@ def configSetup():
     setupFile.close()
     for package in packageList:
         subprocess.call("py -3 -m pip install "+ package)#install
-configSetup()

@@ -118,7 +118,7 @@ CHECKPOINT_NAME = '/tmp/_retrain_checkpoint'
 
 
 def create_image_lists(image_dir, testing_percentage, validation_percentage):
-  
+
   if not gfile.Exists(image_dir):
     tf.logging.error("Image directory '" + image_dir + "' not found.")
     return None

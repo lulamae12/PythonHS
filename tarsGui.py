@@ -1,28 +1,28 @@
-import wx
+import tkinter as tk
+global outputLabel = tk.Label(window, text = output, font=("Helvetica", 16))
+def displayOutput(output):
 
-#main class for app frame
-class Dashboard(wx.Frame):
-    def __init__(self):
-        #basic gui stuff
-        wx.Frame.__init__(self, None,pos=wx.DefaultPosition, size=wx.Size(450, 300),style=wx.MINIMIZE_BOX | wx.SYSTEM_MENU | wx.CAPTION |wx.CLOSE_BOX | wx.CLIP_CHILDREN,title="TARS")
-        panel = wx.Panel(self)
-        mySizer = wx.BoxSizer(wx.VERTICAL)
-        label = wx.StaticText(panel,label="Hello I am TARS. How can I help you?")
-        button = wx.Button(panel,wx.ID_ANY,"Submit",(180,200))
-        button.Bind(wx.EVT_BUTTON,self.OnButtonPress)
-        mySizer.Add(label, 0, wx.ALL, 5)
+    outputLabel = tk.Label(window, text = output, font=("Helvetica", 16)).pack()#pack() works kinda like stack
+def getTextFromTextBox():
+    input = textBox.get()
+    changeLabel()
+    displayOutput(input)
+def changeLabel():
+    outputLabel.destroy()
 
-        self.textBox =wx.TextCtrl(panel, style=wx.TE_PROCESS_ENTER,size=(400,30))
-        self.textBox.SetFocus()
-        self.textBox.Bind(wx.EVT_TEXT_ENTER, self.OnButtonPress)
-        mySizer.Add(self.textBox, 0, wx.ALL ,5)
-        panel.SetSizer(mySizer)
-        self.Show()
-    def OnButtonPress(self, event):
-        input =self.textBox.GetValue()
-        input = input.lower()
-        print(input)
 
-app = wx.App(True)
-frame = Dashboard()
-app.MainLoop()
+
+window = tk.Tk()
+window.title("TARS")
+
+window.geometry("1600x900")
+textBox = tk.Entry(window, width = 100)#create textBox in window
+button = tk.Button(window,text = "Submit", command = lambda:getTextFromTextBox(), width = 50)#use lambda bc it goes immediatyl other wise
+
+button.pack(side=tk.BOTTOM)
+textBox.pack(side=tk.BOTTOM)
+label = tk.Label(window, text = "Hello i am TARS").pack(side=tk.BOTTOM)#pack() works kinda like stack
+
+
+
+window.mainloop() #Makes the window actually appear

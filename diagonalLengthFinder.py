@@ -7,8 +7,8 @@ GREEN = (0, 255, 0)
 def getdiagonal():
     diagonal = input("please enter the diagonal:")
     #using 30 60 90 triangles
-    legA = int(diagonal) * .5;#side 'a' of triangle is found by dividing diagnol by 2. this is x in the 30 60 90 equation
-    legB = int(diagonal) * 0.866025#side 'b' of triange is x times square root of 3
+    legA = diagonal * .5;#side 'a' of triangle is found by dividing diagnol by 2. this is x in the 30 60 90 equation
+    legB = diagonal * 0.866025#side 'b' of triange is x times square root of 3
     print(str(legA))
     print(str(legB))
     legAstr = str(legA)
