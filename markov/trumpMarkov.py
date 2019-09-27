@@ -1,6 +1,6 @@
 import numpy as np
 
-trumpSpeeches = open("trumpSpeeches.txt",encoding='utf8').read()
+trumpSpeeches = open("rhap.txt",encoding='utf8').read()
 corpus = trumpSpeeches.split()
 
 def makeWordPairs(corpus):

@@ -5,12 +5,12 @@ import markovify
 
 
 def chat():
-    with open("trumpSpeeches.txt",encoding='utf8') as file:
+    with open("lyricCorpus2019092621.txt") as file:
         corpus = file.read()
     #build model
-    model = markovify.Text(corpus,state_size=2)
+    model = markovify.Text(corpus,state_size=1)
 
-    chain = model.make_sentence() 
+    chain = model.make_short_sentence(100) 
     print("\n",chain)
 
 
@@ -25,6 +25,6 @@ def chat():
 
 
 
-for i in range(3):
+for i in range(5):
     chat()
     print("")
