@@ -5,7 +5,7 @@ import markovify
 
 
 def chat():
-    with open("rhap.txt",encoding='utf8') as file:
+    with open("trumpSpeeches.txt",encoding='utf8') as file:
         corpus = file.read()
     #build model
     model = markovify.Text(corpus,state_size=2)
@@ -25,5 +25,6 @@ def chat():
 
 
 
-
-chat()
+for i in range(3):
+    chat()
+    print("")
