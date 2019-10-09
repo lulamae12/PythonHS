@@ -5,7 +5,7 @@ import markovify
 
 
 def chat():
-    with open("lyricCorpus2019092621.txt") as file:
+    with open("rhap.txt",encoding='utf8') as file:
         corpus = file.read()
     #build model
     model = markovify.Text(corpus,state_size=1)

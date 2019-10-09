@@ -1,0 +1,3040 @@
+{
+    "Response": {
+        "data": {
+            "nightfallActivityHash": 2693077237,
+            "heroicStrikeHashes": [
+                870614351
+            ],
+            "nightfallResetDate": "2019-10-15T09:00:00Z",
+            "heroicStrikeResetDate": "2019-10-15T09:00:00Z",
+            "dailyChapterResetDate": "0001-01-01T00:00:00Z",
+            "dailyCrucibleHash": 0,
+            "dailyCrucibleResetDate": "0001-01-01T00:00:00Z",
+            "nightfallRewardIndexes": [
+                0,
+                1
+            ],
+            "heroicStrikeRewardIndexes": {
+                "870614351": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    7
+                ]
+            },
+            "arena": [
+                {
+                    "activityHash": 4079642013,
+                    "iconPath": "/img/destiny_content/arena/32_challenge.v2.png",
+                    "rounds": [
+                        {
+                            "enemyRaceHash": 546070638,
+                            "skulls": [
+                                13
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 3265589059,
+                            "skulls": [
+                                19
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 1636291695,
+                            "skulls": [
+                                7
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 3265589059,
+                            "skulls": [
+                                6
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 546070638,
+                            "skulls": [
+                                13
+                            ]
+                        }
+                    ],
+                    "bossFight": false,
+                    "bossSkulls": [],
+                    "activeRewardIndexes": [
+                        0
+                    ],
+                    "isCompleted": false
+                },
+                {
+                    "activityHash": 1441430564,
+                    "iconPath": "/img/destiny_content/arena/34_challenge.v2.png",
+                    "rounds": [
+                        {
+                            "enemyRaceHash": 3265589059,
+                            "skulls": [
+                                1
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 546070638,
+                            "skulls": [
+                                5
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 546070638,
+                            "skulls": [
+                                3
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 3265589059,
+                            "skulls": [
+                                9
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 3265589059,
+                            "skulls": [
+                                10
+                            ]
+                        }
+                    ],
+                    "bossFight": false,
+                    "bossSkulls": [],
+                    "activeRewardIndexes": [
+                        0
+                    ],
+                    "isCompleted": false
+                },
+                {
+                    "activityHash": 2326253031,
+                    "iconPath": "/img/destiny_content/arena/35_challenge.v2.png",
+                    "rounds": [
+                        {
+                            "enemyRaceHash": 3265589059,
+                            "skulls": [
+                                3,
+                                6
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 711470098,
+                            "skulls": [
+                                2,
+                                4
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 546070638,
+                            "skulls": [
+                                7,
+                                9
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 1636291695,
+                            "skulls": [
+                                8,
+                                13
+                            ]
+                        },
+                        {
+                            "enemyRaceHash": 1636291695,
+                            "skulls": [
+                                1,
+                                5
+                            ]
+                        }
+                    ],
+                    "bossFight": true,
+                    "bossSkulls": [
+                        7,
+                        12
+                    ],
+                    "activeRewardIndexes": [
+                        0
+                    ],
+                    "isCompleted": false
+                }
+            ],
+            "events": {
+                "events": []
+            },
+            "nightfall": {
+                "activityBundleHash": 2693077237,
+                "specificActivityHash": 3132533708,
+                "expirationDate": "2019-10-15T09:00:00Z",
+                "tiers": [
+                    {
+                        "activityHash": 3132533708,
+                        "specificActivityHash": 3132533708,
+                        "isCompleted": false,
+                        "isSuccessful": false,
+                        "activeRewardIndexes": [
+                            0,
+                            1
+                        ],
+                        "skullIndexes": [
+                            3,
+                            5,
+                            13,
+                            16,
+                            20
+                        ]
+                    }
+                ],
+                "iconPath": "/img/destiny_content/advisors/pve_Nightfall_Strike.png"
+            },
+            "heroicStrike": {
+                "activityBundleHash": 870614351,
+                "expirationDate": "2019-10-15T09:00:00Z",
+                "tiers": [
+                    {
+                        "activityHash": 870614351,
+                        "isCompleted": false,
+                        "activeRewardIndexes": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            7
+                        ],
+                        "skullIndexes": [
+                            0,
+                            8,
+                            9,
+                            17
+                        ]
+                    }
+                ],
+                "iconPath": "/img/destiny_content/advisors/pve_Heroic_Strike_Playlist.png",
+                "image": "/img/theme/destiny/bgs/pgcrs/weekly_heroic.jpg"
+            },
+            "armsDay": {
+                "active": false,
+                "startDate": "2019-10-09T09:00:00Z",
+                "endDate": "2019-10-13T09:00:00Z",
+                "nextStartDate": "0001-01-01T00:00:00Z",
+                "expirationKnown": true,
+                "canPlaceOrder": false,
+                "orders": [],
+                "testWeapons": [
+                    {
+                        "item": {
+                            "itemHash": 2601444956,
+                            "bindStatus": 0,
+                            "isEquipped": false,
+                            "itemInstanceId": "0",
+                            "itemLevel": 40,
+                            "stackSize": 1,
+                            "qualityLevel": 0,
+                            "stats": [
+                                {
+                                    "statHash": 4284893193,
+                                    "value": 88,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 4043523819,
+                                    "value": 8,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 1240592695,
+                                    "value": 14,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 155624089,
+                                    "value": 39,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 4188031367,
+                                    "value": 43,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 3871231066,
+                                    "value": 22,
+                                    "maximumValue": 100
+                                }
+                            ],
+                            "primaryStat": {
+                                "statHash": 368428387,
+                                "value": 200,
+                                "maximumValue": 0
+                            },
+                            "canEquip": true,
+                            "equipRequiredLevel": 38,
+                            "unlockFlagHashRequiredToEquip": 2166136261,
+                            "cannotEquipReason": 0,
+                            "damageType": 1,
+                            "damageTypeHash": 0,
+                            "damageTypeNodeIndex": 3,
+                            "damageTypeStepIndex": 0,
+                            "talentGridHash": 3307134407,
+                            "nodes": [
+                                {
+                                    "isActivated": false,
+                                    "stepIndex": 0,
+                                    "state": 9,
+                                    "hidden": false,
+                                    "nodeHash": 0
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 1
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 6,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 2
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 3
+                                }
+                            ],
+                            "useCustomDyes": true,
+                            "artRegions": {
+                                "3": 2,
+                                "1": 0,
+                                "0": 0,
+                                "5": 0,
+                                "4": 0,
+                                "21": 2
+                            },
+                            "isEquipment": true,
+                            "isGridComplete": false,
+                            "perks": [],
+                            "location": 3,
+                            "transferStatus": 2,
+                            "locked": false,
+                            "lockable": false,
+                            "objectives": [
+                                {
+                                    "objectiveHash": 2601444956,
+                                    "destinationHash": 0,
+                                    "activityHash": 0,
+                                    "progress": 0,
+                                    "hasProgress": false,
+                                    "isComplete": false
+                                }
+                            ],
+                            "state": 0
+                        },
+                        "vendorItemIndex": 378,
+                        "itemStatus": 0,
+                        "costs": [
+                            {
+                                "itemHash": 3159615086,
+                                "value": 0
+                            }
+                        ],
+                        "requiredUnlockFlags": [],
+                        "failureIndexes": []
+                    },
+                    {
+                        "item": {
+                            "itemHash": 133098253,
+                            "bindStatus": 0,
+                            "isEquipped": false,
+                            "itemInstanceId": "0",
+                            "itemLevel": 40,
+                            "stackSize": 1,
+                            "qualityLevel": 0,
+                            "stats": [
+                                {
+                                    "statHash": 4284893193,
+                                    "value": 66,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 4043523819,
+                                    "value": 14,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 1240592695,
+                                    "value": 30,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 155624089,
+                                    "value": 48,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 4188031367,
+                                    "value": 52,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 3871231066,
+                                    "value": 33,
+                                    "maximumValue": 100
+                                }
+                            ],
+                            "primaryStat": {
+                                "statHash": 368428387,
+                                "value": 200,
+                                "maximumValue": 0
+                            },
+                            "canEquip": true,
+                            "equipRequiredLevel": 38,
+                            "unlockFlagHashRequiredToEquip": 2166136261,
+                            "cannotEquipReason": 0,
+                            "damageType": 1,
+                            "damageTypeHash": 0,
+                            "damageTypeNodeIndex": 0,
+                            "damageTypeStepIndex": 0,
+                            "talentGridHash": 4018202085,
+                            "nodes": [
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 0
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 1
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 14,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 2
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 3
+                                }
+                            ],
+                            "useCustomDyes": true,
+                            "artRegions": {
+                                "3": 0,
+                                "5": 0,
+                                "21": 0
+                            },
+                            "isEquipment": true,
+                            "isGridComplete": false,
+                            "perks": [
+                                {
+                                    "iconPath": "/common/destiny_content/icons/064d6d174a0a9bb3108f08a47abf0231.png",
+                                    "perkHash": 1688301903,
+                                    "isActive": true
+                                }
+                            ],
+                            "location": 3,
+                            "transferStatus": 2,
+                            "locked": false,
+                            "lockable": false,
+                            "objectives": [
+                                {
+                                    "objectiveHash": 133098253,
+                                    "destinationHash": 0,
+                                    "activityHash": 0,
+                                    "progress": 0,
+                                    "hasProgress": false,
+                                    "isComplete": false
+                                }
+                            ],
+                            "state": 0
+                        },
+                        "vendorItemIndex": 387,
+                        "itemStatus": 0,
+                        "costs": [
+                            {
+                                "itemHash": 3159615086,
+                                "value": 0
+                            }
+                        ],
+                        "requiredUnlockFlags": [],
+                        "failureIndexes": []
+                    },
+                    {
+                        "item": {
+                            "itemHash": 1501850184,
+                            "bindStatus": 0,
+                            "isEquipped": false,
+                            "itemInstanceId": "0",
+                            "itemLevel": 40,
+                            "stackSize": 1,
+                            "qualityLevel": 0,
+                            "stats": [
+                                {
+                                    "statHash": 4284893193,
+                                    "value": 66,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 4043523819,
+                                    "value": 14,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 1240592695,
+                                    "value": 35,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 155624089,
+                                    "value": 48,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 4188031367,
+                                    "value": 45,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 3871231066,
+                                    "value": 18,
+                                    "maximumValue": 100
+                                }
+                            ],
+                            "primaryStat": {
+                                "statHash": 368428387,
+                                "value": 200,
+                                "maximumValue": 0
+                            },
+                            "canEquip": true,
+                            "equipRequiredLevel": 38,
+                            "unlockFlagHashRequiredToEquip": 2166136261,
+                            "cannotEquipReason": 0,
+                            "damageType": 1,
+                            "damageTypeHash": 0,
+                            "damageTypeNodeIndex": 3,
+                            "damageTypeStepIndex": 0,
+                            "talentGridHash": 1288450861,
+                            "nodes": [
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 0
+                                },
+                                {
+                                    "isActivated": false,
+                                    "stepIndex": 1,
+                                    "state": 9,
+                                    "hidden": false,
+                                    "nodeHash": 1
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 5,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 2
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 3
+                                }
+                            ],
+                            "useCustomDyes": true,
+                            "artRegions": {
+                                "3": 0,
+                                "5": 0,
+                                "21": 0
+                            },
+                            "isEquipment": true,
+                            "isGridComplete": false,
+                            "perks": [],
+                            "location": 3,
+                            "transferStatus": 2,
+                            "locked": false,
+                            "lockable": false,
+                            "objectives": [
+                                {
+                                    "objectiveHash": 1501850184,
+                                    "destinationHash": 0,
+                                    "activityHash": 0,
+                                    "progress": 0,
+                                    "hasProgress": false,
+                                    "isComplete": false
+                                }
+                            ],
+                            "state": 0
+                        },
+                        "vendorItemIndex": 388,
+                        "itemStatus": 0,
+                        "costs": [
+                            {
+                                "itemHash": 3159615086,
+                                "value": 0
+                            }
+                        ],
+                        "requiredUnlockFlags": [],
+                        "failureIndexes": []
+                    },
+                    {
+                        "item": {
+                            "itemHash": 3985187062,
+                            "bindStatus": 0,
+                            "isEquipped": false,
+                            "itemInstanceId": "0",
+                            "itemLevel": 40,
+                            "stackSize": 1,
+                            "qualityLevel": 0,
+                            "stats": [
+                                {
+                                    "statHash": 4284893193,
+                                    "value": 66,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 4043523819,
+                                    "value": 14,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 1240592695,
+                                    "value": 35,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 155624089,
+                                    "value": 55,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 4188031367,
+                                    "value": 45,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 3871231066,
+                                    "value": 18,
+                                    "maximumValue": 100
+                                }
+                            ],
+                            "primaryStat": {
+                                "statHash": 368428387,
+                                "value": 200,
+                                "maximumValue": 0
+                            },
+                            "canEquip": true,
+                            "equipRequiredLevel": 38,
+                            "unlockFlagHashRequiredToEquip": 2166136261,
+                            "cannotEquipReason": 0,
+                            "damageType": 1,
+                            "damageTypeHash": 0,
+                            "damageTypeNodeIndex": 3,
+                            "damageTypeStepIndex": 0,
+                            "talentGridHash": 1288450861,
+                            "nodes": [
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 0
+                                },
+                                {
+                                    "isActivated": false,
+                                    "stepIndex": 1,
+                                    "state": 9,
+                                    "hidden": false,
+                                    "nodeHash": 1
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 7,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 2
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 3
+                                }
+                            ],
+                            "useCustomDyes": true,
+                            "artRegions": {
+                                "3": 0,
+                                "5": 0,
+                                "21": 0
+                            },
+                            "isEquipment": true,
+                            "isGridComplete": false,
+                            "perks": [],
+                            "location": 3,
+                            "transferStatus": 2,
+                            "locked": false,
+                            "lockable": false,
+                            "objectives": [
+                                {
+                                    "objectiveHash": 3985187062,
+                                    "destinationHash": 0,
+                                    "activityHash": 0,
+                                    "progress": 0,
+                                    "hasProgress": false,
+                                    "isComplete": false
+                                }
+                            ],
+                            "state": 0
+                        },
+                        "vendorItemIndex": 389,
+                        "itemStatus": 0,
+                        "costs": [
+                            {
+                                "itemHash": 3159615086,
+                                "value": 0
+                            }
+                        ],
+                        "requiredUnlockFlags": [],
+                        "failureIndexes": []
+                    },
+                    {
+                        "item": {
+                            "itemHash": 2717943896,
+                            "bindStatus": 0,
+                            "isEquipped": false,
+                            "itemInstanceId": "0",
+                            "itemLevel": 40,
+                            "stackSize": 1,
+                            "qualityLevel": 0,
+                            "stats": [
+                                {
+                                    "statHash": 4284893193,
+                                    "value": 4,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 3614673599,
+                                    "value": 73,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 2523465841,
+                                    "value": 59,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 155624089,
+                                    "value": 27,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 4188031367,
+                                    "value": 49,
+                                    "maximumValue": 100
+                                },
+                                {
+                                    "statHash": 3871231066,
+                                    "value": 2,
+                                    "maximumValue": 100
+                                }
+                            ],
+                            "primaryStat": {
+                                "statHash": 368428387,
+                                "value": 200,
+                                "maximumValue": 0
+                            },
+                            "canEquip": true,
+                            "equipRequiredLevel": 38,
+                            "unlockFlagHashRequiredToEquip": 2166136261,
+                            "cannotEquipReason": 0,
+                            "damageType": 4,
+                            "damageTypeHash": 0,
+                            "damageTypeNodeIndex": 3,
+                            "damageTypeStepIndex": 0,
+                            "talentGridHash": 3204568954,
+                            "nodes": [
+                                {
+                                    "isActivated": false,
+                                    "stepIndex": 2,
+                                    "state": 9,
+                                    "hidden": false,
+                                    "nodeHash": 0
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 1
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 1,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 2
+                                },
+                                {
+                                    "isActivated": true,
+                                    "stepIndex": 0,
+                                    "state": 10,
+                                    "hidden": false,
+                                    "nodeHash": 3
+                                }
+                            ],
+                            "useCustomDyes": true,
+                            "artRegions": {},
+                            "isEquipment": true,
+                            "isGridComplete": false,
+                            "perks": [],
+                            "location": 3,
+                            "transferStatus": 2,
+                            "locked": false,
+                            "lockable": false,
+                            "objectives": [
+                                {
+                                    "objectiveHash": 2717943896,
+                                    "destinationHash": 0,
+                                    "activityHash": 0,
+                                    "progress": 0,
+                                    "hasProgress": false,
+                                    "isComplete": false
+                                }
+                            ],
+                            "state": 0
+                        },
+                        "vendorItemIndex": 390,
+                        "itemStatus": 0,
+                        "costs": [
+                            {
+                                "itemHash": 3159615086,
+                                "value": 0
+                            }
+                        ],
+                        "requiredUnlockFlags": [],
+                        "failureIndexes": []
+                    }
+                ],
+                "vendorHash": 570929315
+            },
+            "weeklyCrucible": [
+                {
+                    "activityBundleHash": 3619606113,
+                    "expirationDate": "2019-10-15T09:00:00Z",
+                    "isCompleted": false,
+                    "activeRewardIndexes": [
+                        0,
+                        1
+                    ],
+                    "iconPath": "/img/destiny_content/advisors/pvp_Mayhem_Clash.png",
+                    "image": "/img/theme/destiny/bgs/pgcrs/weekly_crucible.jpg",
+                    "completionCount": 0,
+                    "maxCompletions": 3
+                }
+            ],
+            "weeklyStory": {
+                "activityBundleHash": 389785553,
+                "expirationDate": "2019-10-15T09:00:00Z",
+                "iconPath": "/img/destiny_content/advisors/pve_Story_Standard.png",
+                "image": "/img/theme/destiny/bgs/pgcrs/playlist_dark_below_house_of_wolves.jpg",
+                "isCompleted": false,
+                "activeRewardIndexes": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    8
+                ],
+                "skullIndexes": [
+                    0,
+                    7,
+                    16
+                ]
+            },
+            "weeklyFeaturedRaid": {
+                "activityBundleHash": 4000873610,
+                "raidIdentifier": "RAID_MOON1",
+                "friendlyIdentifier": "crota",
+                "expirationDate": "2019-10-15T09:00:00Z",
+                "tiers": [
+                    {
+                        "activityHash": 4000873610,
+                        "stepsComplete": 0,
+                        "stepsTotal": 4,
+                        "steps": [
+                            {
+                                "isComplete": false
+                            },
+                            {
+                                "isComplete": false
+                            },
+                            {
+                                "isComplete": false
+                            },
+                            {
+                                "isComplete": false
+                            }
+                        ],
+                        "difficultyIdentifier": "DIFFICULTY_HARD",
+                        "activeRewardIndexes": [
+                            0,
+                            1
+                        ],
+                        "skullIndexes": [
+                            0,
+                            1,
+                            2
+                        ]
+                    }
+                ],
+                "iconPath": "/common/destiny_content/icons/10460443b1c2d00907442ae34b88c065.png"
+            },
+            "availableBounties": {
+                "1527174714": {
+                    "saleItems": [
+                        {
+                            "item": {
+                                "itemHash": 1652727539,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3990394454,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 225,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1602394684,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 667594259,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 229,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1652727542,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 2529699282,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 222,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1209869505,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3447594112,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 234,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1209869511,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3328171211,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 232,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 4085991202,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 2599425842,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 203,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 688701637,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3015181845,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 304,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1846025369,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3925983685,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 301,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 3575006493,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 1018601909,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 310,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 863725903,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 761530181,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 302,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 2287206136,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 4150530985,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 308,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1776075524,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3917005927,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 307,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 3020829288,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3280612376,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 322,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 3564495043,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 2860939882,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 326,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 4185750543,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 2151588030,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 314,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 2518691624,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 4085590424,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 325,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 703250497,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 929783744,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 323,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 2338781958,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3263679396,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 327,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        }
+                    ]
+                },
+                "1990950": {
+                    "saleItems": [
+                        {
+                            "item": {
+                                "itemHash": 4000244854,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3684212619,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 263,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 2712214646,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 803702063,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 264,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 403828894,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 1791248843,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    },
+                                    {
+                                        "objectiveHash": 346657623,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    },
+                                    {
+                                        "objectiveHash": 260164764,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 268,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        }
+                    ]
+                },
+                "3746647075": {
+                    "saleItems": [
+                        {
+                            "item": {
+                                "itemHash": 2751498155,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 329862370,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    },
+                                    {
+                                        "objectiveHash": 2502495675,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    },
+                                    {
+                                        "objectiveHash": 2662293348,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    },
+                                    {
+                                        "objectiveHash": 988341611,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 208,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1983809889,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 2561322348,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    },
+                                    {
+                                        "objectiveHash": 569082364,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    },
+                                    {
+                                        "objectiveHash": 2732935772,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    },
+                                    {
+                                        "objectiveHash": 3740544562,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 209,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        }
+                    ]
+                },
+                "3658200622": {
+                    "saleItems": [
+                        {
+                            "item": {
+                                "itemHash": 2000591599,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 1145734307,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 68,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1097999011,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 4162188839,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 66,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 870158350,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3237230411,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 72,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 3907250189,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 4146258075,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 71,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1964318441,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 2369376027,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 74,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        }
+                    ]
+                },
+                "1998812735": {
+                    "saleItems": [
+                        {
+                            "item": {
+                                "itemHash": 589226878,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 2909106843,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 57,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1083608616,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 581223697,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 52,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 891614685,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 2587222923,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 55,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        }
+                    ]
+                },
+                "2190824860": {
+                    "saleItems": [
+                        {
+                            "item": {
+                                "itemHash": 3496832972,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 1954690926,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 41,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 4268984314,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 4208142662,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 40,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 499606006,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 942429622,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 38,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 3187532230,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 1374770710,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 32,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        }
+                    ]
+                },
+                "2610555297": {
+                    "saleItems": [
+                        {
+                            "item": {
+                                "itemHash": 2515035126,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3206030952,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 40,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 2079278300,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 3244986396,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 41,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 3175824566,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 1864163048,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 42,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        },
+                        {
+                            "item": {
+                                "itemHash": 1214227005,
+                                "bindStatus": 0,
+                                "isEquipped": false,
+                                "itemInstanceId": "0",
+                                "itemLevel": 0,
+                                "stackSize": 1,
+                                "qualityLevel": 0,
+                                "stats": [],
+                                "canEquip": false,
+                                "equipRequiredLevel": 0,
+                                "unlockFlagHashRequiredToEquip": 0,
+                                "cannotEquipReason": 0,
+                                "damageType": 0,
+                                "damageTypeHash": 0,
+                                "damageTypeNodeIndex": -1,
+                                "damageTypeStepIndex": -1,
+                                "talentGridHash": 0,
+                                "nodes": [],
+                                "useCustomDyes": false,
+                                "artRegions": {},
+                                "isEquipment": false,
+                                "isGridComplete": false,
+                                "perks": [],
+                                "location": 3,
+                                "transferStatus": 2,
+                                "locked": false,
+                                "lockable": false,
+                                "objectives": [
+                                    {
+                                        "objectiveHash": 1709046792,
+                                        "destinationHash": 0,
+                                        "activityHash": 0,
+                                        "progress": 0,
+                                        "hasProgress": false,
+                                        "isComplete": false
+                                    }
+                                ],
+                                "state": 0
+                            },
+                            "vendorItemIndex": 43,
+                            "itemStatus": 0,
+                            "costs": [
+                                {
+                                    "itemHash": 3159615086,
+                                    "value": 0
+                                }
+                            ],
+                            "requiredUnlockFlags": [],
+                            "failureIndexes": []
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "ErrorCode": 1,
+    "ThrottleSeconds": 0,
+    "ErrorStatus": "Success",
+    "Message": "Ok",
+    "MessageData": {}
+}
