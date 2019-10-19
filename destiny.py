@@ -1,36 +1,122 @@
-
-#apikey = "56a23970eb2042059e7727de84e9e498"
-import pydest,asyncio,json,codecs
-import requests
-HEADERS = {"X-API-Key":'56a23970eb2042059e7727de84e9e498'}
-
-apikey = "56a23970eb2042059e7727de84e9e498"
-myuserid = "10061778"
-async def main():
+import destinyUpdateManifest as dum 
+import pydest,asyncio,os,json,sys
+cls = lambda: os.system('cls')
+classifieditemNum = 0000
+valueList = ["name","description","hasIcon","hash","index","icon","subtitle"]
 
 
-    destiny = pydest.Pydest(apikey)
-    json = await destiny.api.get_destiny_manifest()
-    await destiny.close()
-    return json
+def writeLoreFile(name,subtitle,description,hasIcon,icon,hashVal,index):
+    global classifieditemNum
+    if str(name) == "Classified":
+        classifieditemNum = classifieditemNum + 1 
+        name = name + "-" +str(classifieditemNum)
+    if str(name) == "":
+        classifieditemNum = classifieditemNum + 1 
+        name = "[REDACTED]"
 
-
-asyncio.run(main())
-
-manifestEndpoint = "Destiny2/Milestones/"
-
-url = "https://www.bungie.net/Platform/" + manifestEndpoint
-
-
-#decoded_data=codecs.decode(requests.text.encode(), 'utf-8-sig')
-
-reqUrl = requests.get(url,headers=HEADERS)
-
-print(reqUrl.json())
+    data = {
+        name:{
+            "name":name,
+            "subtitle":subtitle,
+            "description":description,
+            "hasIcon":hasIcon,
+            "icon":icon,
+            "hash":hashVal,
+            "index":index
+        }
+    }    
+    print(data)
     
+    with open("destinyLoreFile.json","a") as jsonFile:
+        json.dump(data,jsonFile,indent=4)
+    jsonFile.close()
 
-with open("destinyData.json","w") as jf:
-    json.dump(reqUrl.json(),jf,indent=4)
-jf.close()
+def getManifestData(BaseFolderName,foldername):
+    nameValue = ""
+    descriptionValue = ""
+    hasIconValue = ""
+    hashValue =  ""
+    indexValue = ""
+    iconValue = ""
 
-#json = reqUrl.json()[]''
+    
+    
+    
+    
+    
+    currentPath = os.getcwd()
+    dataPath = currentPath +"\\"+BaseFolderName+"\\"+foldername+"\\jsonFile.json"
+    print(dataPath)
+    with open(dataPath,"r") as file:
+        jsonFile = json.loads(file.read())
+    file.close()    
+    #print(jsonFile)
+    #jsonFile = json.dumps(str(jsonFile),indent=4,sort_keys=True)
+    #for key in jsonFile:
+    hashList = []
+    
+    for key in jsonFile.keys():
+        
+        hashList.append(key)
+    #print(hashList)
+    cls()
+    for hash in hashList:
+        valueList = ["name","description","hasIcon","hash","index","icon","subtitle"]
+        #print("BRUJJJJJJJJJJJJJJJJJ")
+        hashSection = jsonFile[hash]
+        
+        for key,value in hashSection.items():
+            #print("KEY: ",key,":","VALUE: ",value)
+            keyTypeList=["name","description","hasIcon","hash","index","icon","subtitle"]
+            usedKeyList=[]
+            
+            currentKey = ""
+            currentValue = ""
+        #print(key)
+            if str(key) == "displayProperties":
+
+                for key,value in value.items():
+                    
+                    if str(key) == ("name"):
+                        nameValue = value
+                        #print(nameValue)
+                        #sys.exit()
+                    elif str(key) == ("description"):
+                        descriptionValue = value
+                        #print(descriptionValue)
+                        #sys.exit()
+
+                    elif str(key) == ("hasIcon"):
+                        hasIconValue = value
+                        #print(hasIconValue)
+                        #sys.exit()       
+            
+            if str(key) == ("hash"):
+                hashValue = value
+                ##print(hashValue)
+                #sys.exit()
+
+            elif str(key) == ("index"):
+                indexValue = value
+                ##print(indexValue)
+                #sys.exit()
+
+        
+            elif str(key) == ("icon"):
+                iconValue = value
+                ##print(iconValue)
+                #sys.exit()
+
+            elif str(key) == ("subtitle"):
+                subValue = value
+                ##print(subValue)
+                #sys.exit()
+
+        
+        print(nameValue,":::",descriptionValue,":::",hasIconValue,":::",hashValue,":::",indexValue,":::",iconValue,":::",subValue)
+        writeLoreFile(nameValue,subValue,descriptionValue,hasIconValue,iconValue,hashValue,indexValue)
+            
+
+
+
+getManifestData("destiny_filtered_sections","DestinyLoreDefinition")
